@@ -65,11 +65,13 @@ gem 'carrierwave'
 gem 'rmagick'
 gem "refile", require: "refile/rails", github: 'manfe/refile'
 gem "refile-mini_magick"
-gem 'fog'
+gem 'fog-aws'
 
 gem 'kaminari'
 
 gem 'therubyracer', platforms: :ruby
+
+gem 'dotenv-rails'
 
 group :production do
   # Gemfileの1番下に追加しましょう。
